@@ -20,3 +20,10 @@ Blogs.create(
     'Another Taylor',
     '08/30/18'
 );
+
+router.get('/', (req, res) => {
+    res.json(Blogs.get());
+});
+
+
+module.exports = router;
