@@ -1,0 +1,24 @@
+{
+  "name": "blog-api-project",
+  "version": "1.0.0",
+  "description": "API Challenge",
+  "main": "models.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorCodesStuff/blog-api-project.git"
+  },
+  "author": "Taylor H.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorCodesStuff/blog-api-project/issues"
+  },
+  "homepage": "https://github.com/taylorCodesStuff/blog-api-project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "uuid": "^3.3.2"
+  }
+}
